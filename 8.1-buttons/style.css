@@ -1,0 +1,169 @@
+ *{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background-color: #32465f;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+} 
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    color: #EEEEEE;
+    padding: 40px;
+}
+
+.header {
+    margin: 15px 0;
+}
+
+button {
+    color: #EEEEEE;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 200ms ease-out;
+}
+
+.left {
+    font-size: 16px;
+    width: 140px;
+    height: 40px;
+
+}
+
+.mid {
+    font-size: 14px;
+    width: 100px;
+    height: 30px;
+
+}
+
+.right {
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+}
+
+.Round, .Flat-Round-Ghost {
+    border-radius: 18px;
+}
+
+#flat-btnA {
+    background: #02dd77;
+}
+
+#flat-btnA:hover {
+    background: #03b160;
+    transition: 200ms ease-in;
+}
+
+#flat-btnB {
+    background: #e22423;
+}
+
+#flat-btnB:hover {
+    background: #eb0200;
+    transition: 200ms ease-in;
+}
+
+#flat-btnC {
+    background: #0d8edd;
+}
+
+#flat-btnC:hover {
+    background: #0088d4;
+    transition: 200ms ease-in;
+}
+
+#round-btnA {
+    background: #eb7700;
+}
+
+#round-btnA:hover {
+    background: #cb6000;
+    transition: 200ms ease-in;
+}
+
+#round-btnB {
+    background: #f4cd04;
+}
+
+#round-btnB:hover {
+    background: #d5af00;
+    transition: 200ms ease-in;
+}
+
+#round-btnC {
+    background: #7a8a8b;
+}
+
+#round-btnC:hover {
+    background: #637374;
+    transition: 200ms ease-in;
+}
+
+#flat-ghost-btnA {
+    background: #32465f;
+    border: 2px solid #02dd77;
+}
+
+#flat-ghost-btnA:hover {
+    background: #02dd77;
+    transition: 200ms ease-in;
+}
+
+#flat-ghost-btnB {
+    background: #32465f;
+    border: 2px solid #e22423;
+}
+
+#flat-ghost-btnB:hover {
+    background: #e22423;
+    transition: 200ms ease-in;
+}
+
+#flat-ghost-btnC {
+    background: #32465f;
+    border: 2px solid #0d8edd;
+}
+
+#flat-ghost-btnC:hover {
+    background: #0d8edd;
+    transition: 200ms ease-in;
+}
+
+#round-ghost-btnA {
+    background: #32465f;
+    border: 2px solid #eb7700;
+}
+
+#round-ghost-btnA:hover {
+    background: #eb7700;
+    transition: 200ms ease-in;
+}
+
+#round-ghost-btnB {
+    background: #32465f;
+    border: 2px solid #f4cd04;
+}
+
+#round-ghost-btnB:hover {
+    background: #f4cd04;
+    transition: 200ms ease-in;
+}
+
+#round-ghost-btnC {
+    background: #32465f;
+    border: 2px solid #7a8a8b;
+
+}
+
+#round-ghost-btnC:hover {
+    background: #7a8a8b;
+    transition: 200ms ease-in;
+}

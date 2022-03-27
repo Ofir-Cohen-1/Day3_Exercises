@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    position: absolute;
+    border: 3px solid black;
+}
+.one{
+    background: white;
+    width: 400px;
+    height: 350px;
+    top: 100px;
+    left: 500px;
+}
+
+.two{
+    background: white;
+    width: 250px;
+    height: 300px;
+    z-index: 1;
+    top: 300px;
+    left: 750px;
+}
+
+.three{
+    background: white;
+    width: 810px;
+    height: 250px;
+    z-index: 2;
+    top: 550px;
+    left: 500px;
+}
+
+.four{
+    background: white;
+    width: 125px;
+    height: 800px;
+    z-index: 3;
+    top: 100px;
+    left: 1150px;
+}
